@@ -8,10 +8,10 @@ int main() {
     int cidade, turismo;
     float area, populacao, pib; 
 
-    printf ("Jogo Super Trunfo - Países\n");
+    printf("Jogo Super Trunfo - Países\n");
 
     printf("Casdastro das cartas\n");
-    printf("Serão cadastrados 1 País, 8 Estados e 4 Cidades em cada Estado\n")
+    printf("Serão cadastrados 1 País, 8 Estados e 4 Cidades em cada Estado\n");
 
     printf("Nome do País: ");
     scanf("%s", &nome);

@@ -1,44 +1,635 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+// São 8 Estados contem 4 cidadescada  com a mesma sequencia de perguntas para preencher.
+//Teste robson
 
 int main() {
     char estado, nome[50];
-    int cidade;
+    int cidade, turismo;
+    float area, populacao, pib; 
 
     printf ("Jogo Super Trunfo - Países\n");
 
     printf("Casdastro das cartas\n");
+    printf("Serão cadastrados 1 País, 8 Estados e 4 Cidades em cada Estado\n")
 
     printf("Nome do País: ");
     scanf("%s", &nome);
     
-    printf("Estado representado por uma letra.\n");
+    printf("Estado representado por uma letra de 'A a H.\n");
     printf("Estado:");
     scanf("%s", &nome);
+
+    printf("Cidade representado por um número de 01 a 04.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos Turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
 
     printf("Cidade representado por um número.\n");
     printf("Cidade:");
     scanf("%d", &cidade);
 
-   
+    printf("Area por Km²:");
+    scanf("%f", &area);
 
+    printf("População:");
+    scanf("%f", &populacao);
 
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
 
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
     
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próximo Estado\n");
+    printf("Estado:");
+    scanf("%s", &nome);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+
+    printf("Próximo Estado\n");
+    printf("Estado:");
+    scanf("%s", &nome);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próximo Estado\n");
+    printf("Estado:");
+    scanf("%s", &nome);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próximo Estado\n");
+    printf("Estado:");
+    scanf("%s", &nome);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próximo Estado\n");
+    printf("Estado:");
+    scanf("%s", &nome);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Próximo Estado\n");
+    printf("Estado:");
+    scanf("%s", &nome);
+
+     printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+     printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+     printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+     printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+     printf("Próximo Estado\n");
+    printf("Estado:");
+    scanf("%s", &nome);
+
+       printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+       printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+       printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+       printf("Próxima cidade\n");
+    
+    printf("Cidade representado por um número.\n");
+    printf("Cidade:");
+    scanf("%d", &cidade);
+
+    printf("Area por Km²:");
+    scanf("%f", &area);
+
+    printf("População:");
+    scanf("%f", &populacao);
+
+    printf("Pontos turisticos:");
+    scanf("%d", &turismo);
+
+    printf("PIB:");
+    scanf("%f", &pib);
+
+    printf("Cadastro de cartas Trunfos Finalizado com Sucesso\n");
+
+
+      return 0;
+
+
+
 
    
 }

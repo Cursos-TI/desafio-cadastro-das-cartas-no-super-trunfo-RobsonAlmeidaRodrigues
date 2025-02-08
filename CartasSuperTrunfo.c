@@ -623,7 +623,7 @@ int main() {
     printf("PIB:");
     scanf("%f", &pib);
 
-    printf("Cadastro de cartas Trunfos Finalizado com Sucesso\n");
+    printf("Cadastro de cartas Trunfo Finalizado com Sucesso\n");
 
 
       return 0;
